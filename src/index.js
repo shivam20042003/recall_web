@@ -27,8 +27,7 @@ wss.on("connection", async (ws, req) => {
   // We need to queue data waiting for the OpenAI connection
   const messageHandler = (data) => {
     try {
-      const event = JSON.parse(data);
-      console.log(`Relaying "${event}"`);
+      console.log(`"${data}"`);
     } catch (e) {
       console.error(e.message);
       console.log(`Error parsing event from client: ${data}`);
