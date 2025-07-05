@@ -1,6 +1,6 @@
 import { WebSocketServer } from "ws";
 
-const PORT = 3000;
+const PORT = 5000;
 const wss = new WebSocketServer({ port: PORT });
 
 wss.on("connection", async (ws, req) => {
