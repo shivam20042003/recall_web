@@ -20,8 +20,9 @@
   "homepage": "https://github.com/shivam20042003/recall_web#readme",
   "description": "",
   "dependencies": {
-    "nodemon": "^3.1.10",
+    "dotenv": "^17.0.1",
     "express": "^4.21.1",
+    "nodemon": "^3.1.10",
     "ws": "^8.18.0"
   }
 }
